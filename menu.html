@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="file://///SD36/ENVR/StudentHome/arsh.jassal/Desktop/index/stylesheet.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+
+ <div class="sidebar">
+  
+  <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+  
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  
+                       <a href="menu.html" class="w3-bar-item w3-button w3-border-bottom"><i class="fa fa-bars fa-2x"></i>
+                        <span class="nav-text">
+                            Menu
+                        </span>
+                    </a>
+  
+                       <a href="location.html" class="w3-bar-item w3-button w3-border-bottom"><i class="fa fa-map-marker fa-2x"></i>                        
+                        <span class="nav-text">               Location                        </span>                    
+                    </a>
+  
+                        <a href="#" class="w3-bar-item w3-button w3-border-bottom"><i class="fa fa-phone fa-2x"></i>
+                        <span class="nav-text">
+                           Contact Us
+                        </span>
+                    </a>
+                    
+                     <a href="#" class="w3-bar-item w3-button w3-border-bottom"><i class="fa fa-user-circle fa-2x"></i>
+                        <span class="nav-text">
+                          Log In
+                        </span>
+                    </a>
+</div>
+	</div>
+
+
+<div zclass="w3-main" id="main">
+
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+  </div>
+</div>
+
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+</div>
+        
+
+<h1> Menu </h1>
+
+<div class="menuimage">
+
+<img src="https://www.google.ca/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwixhojy6qDUAhUUzGMKHQLQCSkQjRwIBw&url=http%3A%2F%2Ffridaytalksfood.com%2Farchives%2F5093&psig=AFQjCNFQy8hKhTbvZ43NCFflIfllz88jdw&ust=1496550415857308" width="1600" height="800" alt="" align="top"/>
+
+</div>
+
+
+
+
+<h2> Breakfast </h2>
+<h2> Lunch </h2>
+<h2> Dinner </h2>
+<h2> Drinks and Dinner </h2>
+
+</body>
+</html> 
